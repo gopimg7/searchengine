@@ -1,0 +1,102 @@
+
+*{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+    font-family: "Protest Revolution", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    /* background-color: rgb(149, 45, 170); */
+    background-image: url(pngtree-scene-of-beautiful-sunshine-over-a-lake-in-a-high-mountain-image_2878541.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+  
+}
+
+h1{
+    text-align: center;
+    margin: 100px auto 50px;
+   text-transform: uppercase;
+   color: aliceblue;
+   font-weight: 900;
+
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background-color: aliceblue;
+   
+    
+    display: flex;
+    align-items: center;
+    border-radius:8px ;
+
+}
+
+form input{
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 0 30px;
+}
+
+form button{
+    padding: 0 40x;
+    width: 100px;
+    height: 100%;
+    background-color: rgb(230, 137, 31);
+    color: aliceblue;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-top-right-radius:8px ;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: rgb(6, 6, 7);
+    font-size: large;
+}
+#show-btn{
+    background-color: green;
+    color: aliceblue;
+    border: 0;outline: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 10px auto 100px;
+    display: block;
+    cursor: pointer;
+    display: none;
+}
+
+#seach-result{
+    width: 80%;
+    
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+
+}
+#seach-result{
+    width: 100%;
+    height: 230%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
